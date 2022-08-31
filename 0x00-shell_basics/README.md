@@ -6,3 +6,9 @@ ls -al - Display current directory contents, including hidden files (starting wi
 ls -alF - Display current directory contents in long format with user and group IDs displayed numerically and hidden files (starting with .)
 mkdir /tmp/my_first_directory/ - Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 mv betty my_first_directory - Move the file betty from /tmp/ to /tmp/my_first_directory.
+mv /tmp/betty /tmp/my_first_directory  - to move the file to another .directory
+rm /tmp/my_first_directory/betty - to  remove the file from a directory
+rmdir /tmp/my_first_directory - Delete the directory my_first_directory that is in the /tmp directory.
+cd - - a script that changes the working directory to the previous one.
+ls -al . .. /boot - a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+file /tmp/iamafile -  a script that prints the type of the file named iamafile
